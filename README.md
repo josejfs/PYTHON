@@ -45,10 +45,11 @@ class PythonMasteryLab:
 ```plaintext
 PYTHON/
 └──🔹 GERENCIAMENTO_DE_MERCEARIA/
-    ├── models/
-    ├── views/
-    ├── controllers/
-    └── DAO/
+    ├── model.py
+    ├── view.py
+    ├── controllers.py
+    ├── main.py
+    └── DAO.py
 
 ```
 
