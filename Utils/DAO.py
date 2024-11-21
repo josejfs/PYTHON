@@ -52,6 +52,14 @@ class CategoriaDAO:
 
         return categorias
     
+    @classmethod
+    def editar_categoria(cls):
+        pass
+
+    @classmethod
+    def deletar_categoria(cls):
+        pass
+    
 class ProdutoDAO:
     @classmethod
     def salvar_produto(cls, produto_nome, valor, categoria_id):

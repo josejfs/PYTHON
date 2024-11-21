@@ -1,0 +1,90 @@
+# Pasta de banco de dados
+DB/
+*.db
+*.sqlite
+*.sqlite3
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição/packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+.eggs/
+wheels/
+share/python-wheels/
+.installed.cfg
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.env
+.venv
+.python-version
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs e arquivos locais
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# Arquivos de documentação gerados
+docs/_build/
+docs/api/

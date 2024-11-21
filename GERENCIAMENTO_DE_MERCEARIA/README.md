@@ -80,7 +80,7 @@ GERENCIAMENTO_DE_MERCEARIA/
 │   ├── menu_view.py
 │   └── interface_usuario.py
 ├── 🔹 controller/
-│   ├── produto_controller.py
+│   ├── CategoriaController.py
 │   └── venda_controller.py
 └── 🔹 DAO/
     ├── produto_dao.py
