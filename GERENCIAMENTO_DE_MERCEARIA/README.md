@@ -72,19 +72,27 @@ class SistemaMercearia:
 
 ```plaintext
 GERENCIAMENTO_DE_MERCEARIA/
+│
+├── __init__.py
+├── main.py
+│
 ├── 🔹 model/
-│   ├── produto.py
-│   ├── venda.py
-│   └── cliente.py
+│   ├── __init__.py
+│   └── CategoriaModel.py
+│
 ├── 🔹 view/
-│   ├── menu_view.py
-│   └── interface_usuario.py
+│   ├── __init__.py
+│   ├── MenuView.py
+│   └── CategoriaView.py
+│
 ├── 🔹 controller/
-│   ├── CategoriaController.py
-│   └── venda_controller.py
-└── 🔹 DAO/
-    ├── produto_dao.py
-    └── database.py
+│   ├── __init__.py
+│   ├── InicializarController.py
+│   └── CategoriaController.py
+│
+└── 🔹 dao/
+    ├── __init__.py
+    └── CategoriaDAO.py
 ```
 
 ### 🏗️ Arquitetura MVC
